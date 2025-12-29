@@ -1,0 +1,87 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Ржавый меч",
+      "description": "Старый, заржавевший меч. Все еще может нанести урон.",
+      "rarity": "common",
+      "item_type": "weapon",
+      "physical_damage": 3,
+      "stat_bonuses": {},
+      "is_tradable": true,
+      "stack_size": 1
+    },
+    {
+      "id": 2,
+      "name": "Кожаная броня",
+      "description": "Простая кожаная броня.",
+      "rarity": "common",
+      "item_type": "chest",
+      "physical_defense": 2,
+      "stat_bonuses": {},
+      "is_tradable": true,
+      "stack_size": 1
+    },
+    {
+      "id": 3,
+      "name": "Сердцевина Ярости Падшего Дракона",
+      "description": "Уникальная Сердцевина, вырванная из сущности могущественного дракона. Непередаваема.",
+      "rarity": "legendary",
+      "item_type": "core",
+      "stat_bonuses": {
+        "strength": 10,
+        "endurance": 5
+      },
+      "is_soul_bound": true,
+      "is_tradable": false,
+      "stack_size": 1
+    },
+    {
+      "id": 4,
+      "name": "Чешуя Вечности Падшего Дракона",
+      "description": "Редкая Оболочка, оставшаяся от падшего дракона. Можно продать на рынке.",
+      "rarity": "epic",
+      "item_type": "shell",
+      "stat_bonuses": {},
+      "is_tradable": true,
+      "stack_size": 10
+    },
+    {
+      "id": 5,
+      "name": "Плащ Падшего Дракона",
+      "description": "Легендарный плащ, скованный из Сердцевины и Оболочек дракона.",
+      "rarity": "legendary",
+      "item_type": "chest",
+      "physical_defense": 25,
+      "magical_defense": 15,
+      "stat_bonuses": {
+        "strength": 15,
+        "endurance": 10,
+        "luck": 5
+      },
+      "is_tradable": false,
+      "stack_size": 1
+    },
+    {
+      "id": 6,
+      "name": "Зелье лечения",
+      "description": "Восстанавливает 50 HP.",
+      "rarity": "common",
+      "item_type": "consumable",
+      "stat_bonuses": {},
+      "is_tradable": true,
+      "stack_size": 20
+    },
+    {
+      "id": 7,
+      "name": "Гнилой зуб",
+      "description": "Обычный дроп с гниющих троллей.",
+      "rarity": "common",
+      "item_type": "material",
+      "stat_bonuses": {},
+      "is_tradable": true,
+      "stack_size": 50
+    }
+  ]
+}
+

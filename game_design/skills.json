@@ -1,0 +1,179 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "name": "Базовый удар",
+      "description": "Обычная физическая атака.",
+      "skill_type": "attack",
+      "required_level": 1,
+      "required_strength": 0,
+      "required_agility": 0,
+      "required_intelligence": 0,
+      "required_endurance": 0,
+      "required_wisdom": 0,
+      "allowed_classes": [],
+      "effects": {
+        "damage_multiplier": 1.0,
+        "mp_cost": 0,
+        "consumes_turn": true
+      }
+    },
+    {
+      "id": 2,
+      "name": "Мощный удар",
+      "description": "Усиленная физическая атака. Требует тактику атаки.",
+      "skill_type": "attack",
+      "required_level": 5,
+      "required_strength": 15,
+      "required_agility": 0,
+      "required_intelligence": 0,
+      "required_endurance": 0,
+      "required_wisdom": 0,
+      "allowed_classes": ["bone_knight", "adventurer"],
+      "effects": {
+        "damage_multiplier": 1.5,
+        "mp_cost": 5,
+        "tactics_cost": {
+          "attack": 1
+        },
+        "consumes_turn": true
+      }
+    },
+    {
+      "id": 3,
+      "name": "Огненная Вспышка",
+      "description": "Магическая атака огнем. Расходует только ману.",
+      "skill_type": "attack",
+      "required_level": 5,
+      "required_strength": 0,
+      "required_agility": 0,
+      "required_intelligence": 15,
+      "required_endurance": 0,
+      "required_wisdom": 0,
+      "allowed_classes": ["void_mage"],
+      "effects": {
+        "magical_damage": 20,
+        "mp_cost": 15,
+        "consumes_turn": true
+      }
+    },
+    {
+      "id": 4,
+      "name": "Костяной щит",
+      "description": "Увеличивает защиту, конвертируя часть урона в щит.",
+      "skill_type": "defense",
+      "required_level": 3,
+      "required_strength": 0,
+      "required_agility": 0,
+      "required_intelligence": 0,
+      "required_endurance": 12,
+      "required_wisdom": 0,
+      "allowed_classes": ["bone_knight"],
+      "effects": {
+        "defense_bonus": 10,
+        "shield_conversion": 0.3,
+        "mp_cost": 20,
+        "duration": 3
+      }
+    },
+    {
+      "id": 5,
+      "name": "Лечение",
+      "description": "Восстанавливает HP цели.",
+      "skill_type": "heal",
+      "required_level": 2,
+      "required_strength": 0,
+      "required_agility": 0,
+      "required_intelligence": 0,
+      "required_endurance": 0,
+      "required_wisdom": 10,
+      "allowed_classes": ["dream_walker", "adventurer"],
+      "effects": {
+        "heal": 30,
+        "mp_cost": 15
+      }
+    },
+    {
+      "id": 6,
+      "name": "Благословение",
+      "description": "Увеличивает характеристики союзника.",
+      "skill_type": "buff",
+      "required_level": 4,
+      "required_strength": 0,
+      "required_agility": 0,
+      "required_intelligence": 0,
+      "required_endurance": 0,
+      "required_wisdom": 15,
+      "allowed_classes": ["dream_walker"],
+      "effects": {
+        "stat_bonus": 5,
+        "mp_cost": 25,
+        "duration": 5,
+        "consumes_turn": true
+      }
+    },
+    {
+      "id": 7,
+      "name": "Быстрая атака",
+      "description": "Быстрая атака, не расходующая ход. Требует тактику атаки.",
+      "skill_type": "attack",
+      "required_level": 3,
+      "required_strength": 10,
+      "required_agility": 12,
+      "required_intelligence": 0,
+      "required_endurance": 0,
+      "required_wisdom": 0,
+      "allowed_classes": ["bone_knight", "adventurer"],
+      "effects": {
+        "damage_multiplier": 0.8,
+        "mp_cost": 3,
+        "tactics_cost": {
+          "attack": 1
+        },
+        "consumes_turn": false
+      }
+    },
+    {
+      "id": 8,
+      "name": "Защитная стойка",
+      "description": "Активирует оборонительную стойку. Не расходует ход.",
+      "skill_type": "defense",
+      "required_level": 2,
+      "required_strength": 0,
+      "required_agility": 0,
+      "required_intelligence": 0,
+      "required_endurance": 10,
+      "required_wisdom": 0,
+      "allowed_classes": ["bone_knight", "adventurer"],
+      "effects": {
+        "defense_bonus": 10,
+        "mp_cost": 5,
+        "tactics_cost": {
+          "block": 1
+        },
+        "consumes_turn": false,
+        "duration": 3
+      }
+    },
+    {
+      "id": 9,
+      "name": "Магический щит",
+      "description": "Создает магический щит, поглощающий урон. Не расходует ход.",
+      "skill_type": "defense",
+      "required_level": 4,
+      "required_strength": 0,
+      "required_agility": 0,
+      "required_intelligence": 12,
+      "required_endurance": 0,
+      "required_wisdom": 10,
+      "allowed_classes": ["void_mage", "dream_walker"],
+      "effects": {
+        "shield": 30,
+        "mp_cost": 20,
+        "consumes_turn": false,
+        "duration": 2
+      }
+    }
+  ]
+}
+

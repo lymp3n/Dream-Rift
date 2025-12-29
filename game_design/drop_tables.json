@@ -1,0 +1,80 @@
+{
+  "drop_tables": [
+    {
+      "monster_id": 1,
+      "name": "Дроп-таблица Гниющего тролля",
+      "items": [
+        {
+          "item_id": 7,
+          "drop_chance": 0.5,
+          "min_quantity": 1,
+          "max_quantity": 3
+        },
+        {
+          "item_id": 6,
+          "drop_chance": 0.1,
+          "min_quantity": 1,
+          "max_quantity": 1
+        }
+      ]
+    },
+    {
+      "monster_id": 2,
+      "name": "Дроп-таблица Болотной гадюки",
+      "items": [
+        {
+          "item_id": 7,
+          "drop_chance": 0.3,
+          "min_quantity": 1,
+          "max_quantity": 2
+        }
+      ]
+    },
+    {
+      "monster_id": 3,
+      "name": "Дроп-таблица Тенекорня",
+      "items": [
+        {
+          "item_id": 7,
+          "drop_chance": 0.7,
+          "min_quantity": 2,
+          "max_quantity": 5
+        },
+        {
+          "item_id": 2,
+          "drop_chance": 0.05,
+          "min_quantity": 1,
+          "max_quantity": 1
+        }
+      ]
+    },
+    {
+      "monster_id": 4,
+      "name": "Дроп-таблица Падшего Дракона",
+      "items": [
+        {
+          "item_id": 3,
+          "drop_chance": 0.001,
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "note": "Сердцевина (Soul-Bound)"
+        },
+        {
+          "item_id": 4,
+          "drop_chance": 0.01,
+          "min_quantity": 1,
+          "max_quantity": 3,
+          "note": "Оболочка (Tradable)"
+        },
+        {
+          "item_id": 5,
+          "drop_chance": 0.0001,
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "note": "Прямой дроп легендарного предмета (крайне редко)"
+        }
+      ]
+    }
+  ]
+}
+

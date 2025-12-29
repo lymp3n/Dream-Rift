@@ -1,0 +1,67 @@
+{
+  "formulas": {
+    "max_hp": {
+      "base": 30,
+      "level_multiplier": 10,
+      "strength_multiplier": 3,
+      "endurance_multiplier": 5,
+      "formula": "(30 + (Уровень * 10)) + (STR * 3) + (END * 5)"
+    },
+    "max_mp": {
+      "base": 20,
+      "level_multiplier": 5,
+      "intelligence_multiplier": 4,
+      "wisdom_multiplier": 2,
+      "formula": "(20 + (Уровень * 5)) + (INT * 4) + (WIS * 2)"
+    },
+    "physical_damage": {
+      "strength_multiplier": 2,
+      "variance": 0.15,
+      "formula": "(Сила * 2) + Бонус оружия ±15%"
+    },
+    "magical_damage": {
+      "intelligence_multiplier": 1.8,
+      "variance": 0.10,
+      "formula": "(Интеллект * 1.8) + Бонус ±10%"
+    },
+    "physical_defense": {
+      "endurance_multiplier": 1.5,
+      "type": "direct_subtraction",
+      "formula": "(Выносливость * 1.5) + Бонус брони"
+    },
+    "magical_defense": {
+      "wisdom_multiplier": 0.8,
+      "type": "percentage_reduction",
+      "formula": "(Мудрость * 0.8) + Бонус (процентное снижение)"
+    },
+    "crit_chance": {
+      "agility_multiplier": 0.1,
+      "luck_multiplier": 0.05,
+      "formula": "(Ловкость * 0.1) + (Удача * 0.05) + Бонусы"
+    },
+    "crit_damage": {
+      "multiplier": 1.8,
+      "formula": "обычный урон * 1.8"
+    },
+    "speed": {
+      "agility_multiplier": 0.7,
+      "formula": "(Ловкость * 0.7) + Бонусы"
+    }
+  },
+  "drop_chance_luck_bonus": {
+    "per_luck_point": 0.0001,
+    "description": "Каждая точка LUK увеличивает шанс дропа на 0.01%"
+  },
+  "inventory": {
+    "max_slots": 30,
+    "grid_size": {
+      "width": 6,
+      "height": 5
+    }
+  },
+  "combat": {
+    "turn_based": true,
+    "speed_determines_order": true
+  }
+}
+

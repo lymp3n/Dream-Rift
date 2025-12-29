@@ -1,0 +1,37 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "result_item_id": 5,
+      "result_item_name": "Плащ Падшего Дракона",
+      "core_item_id": 3,
+      "core_item_name": "Сердцевина Ярости Падшего Дракона",
+      "shell_items": [
+        {
+          "item_id": 4,
+          "item_name": "Чешуя Вечности Падшего Дракона",
+          "quantity": 5
+        }
+      ],
+      "other_items": [],
+      "description": "Создает легендарный Плащ Падшего Дракона из 1x Сердцевины и 5x Оболочек."
+    },
+    {
+      "id": 2,
+      "result_item_id": 6,
+      "result_item_name": "Зелье лечения",
+      "core_item_id": null,
+      "core_item_name": null,
+      "shell_items": [],
+      "other_items": [
+        {
+          "item_id": 7,
+          "item_name": "Гнилой зуб",
+          "quantity": 3
+        }
+      ],
+      "description": "Создает зелье лечения из 3x Гнилых зубов."
+    }
+  ]
+}
+

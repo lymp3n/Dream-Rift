@@ -1,0 +1,62 @@
+{
+  "classes": [
+    {
+      "id": "bone_knight",
+      "name": "Рыцарь Костей",
+      "description": "Танк/Физ. Урон. Поглощение урона, контроль угрозы.",
+      "stat_bonuses_per_level": {
+        "strength": 2,
+        "endurance": 2
+      },
+      "unique_mechanic": {
+        "name": "Костяная броня",
+        "description": "Часть получаемого урона конвертируется в временный щит"
+      }
+    },
+    {
+      "id": "void_mage",
+      "name": "Маг Бездны",
+      "description": "Магический Урон/Контроль. Массовый и точечный маг. урон, наложение ослабляющих эффектов.",
+      "stat_bonuses_per_level": {
+        "intelligence": 3,
+        "wisdom": 1
+      },
+      "unique_mechanic": {
+        "name": "Эхо Бездны",
+        "description": "Есть шанс, что заклинание сработает дважды с уменьшенной эффективностью"
+      }
+    },
+    {
+      "id": "dream_walker",
+      "name": "Странник Снов",
+      "description": "Поддержка/Гибрид. Лечение, баффы союзников, малые доты.",
+      "stat_bonuses_per_level": {
+        "intelligence": 1,
+        "wisdom": 1,
+        "luck": 1
+      },
+      "unique_mechanic": {
+        "name": "Пробуждение",
+        "description": "При лечении или баффе есть шанс добавить цели случайный положительный эффект"
+      }
+    },
+    {
+      "id": "adventurer",
+      "name": "Безклассовый (Авантюрист)",
+      "description": "Максимальная гибкость в сборке, но без доступа к уникальным мощным умениям высших уровней.",
+      "stat_bonuses_per_level": {
+        "strength": 1,
+        "agility": 1,
+        "intelligence": 1,
+        "endurance": 1,
+        "wisdom": 1,
+        "luck": 1
+      },
+      "unique_mechanic": {
+        "name": "Универсальность",
+        "description": "Может выбирать навыки из любого класса, но с ограничениями"
+      }
+    }
+  ]
+}
+
